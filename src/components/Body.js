@@ -1,9 +1,13 @@
 import React from 'react'
+import Navbar from './Navbar'
+import Info from './Info';
+
 
 const Body = () => {
   return (
-    <div>
-      <p>Mijn eerste React project </p>
+    <div className="content">
+      <Navbar />
+      <Info />
     </div>
   )
 }
