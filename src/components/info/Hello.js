@@ -2,8 +2,11 @@
 const Hello = () => {
     return (
         <div className="hello">
-            <p>Welkom, mijn naam is <b>Yorick</b></p>
-            <p>Ik ben een <b>Software developer.</b></p>
+            <img src={require('./usericon.png')}></img>
+            <div className="name">
+                <p>Hallo, mijn naam is <b>Yorick</b></p> 
+                <p>Ik ben een <b>Software Developer.</b></p>
+            </div>
       </div>
     )
 }

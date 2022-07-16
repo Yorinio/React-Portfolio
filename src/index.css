@@ -42,4 +42,26 @@ body {
 .hello {
   font-size:30px;
   padding:200px;
+  padding-top:100px;
+  padding-bottom:100px;
+
+}
+
+.infoItem {
+  margin:20px;
+}
+
+.hello img {
+  height:90px;
+  margin-right:20px;
+}
+
+.hello {
+  display:flex;
+}
+
+.study {
+  padding-left:20px;
+  border-left:1px solid black;
+  margin-top:10px;
 }
